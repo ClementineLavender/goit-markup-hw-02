@@ -3,18 +3,19 @@ body {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #ffffff;
 }
 h1,
 h2,
 h3 {
-font-weight: 700;
-color: #2e2f42;
+  font-weight: 700;
+  color: #2e2f42;
 }
 h2 {
   font-size: 36px;
   letter-spacing: 0.02em;
 }
-.portfolio-title{
+.portfolio-title {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -40,3 +41,20 @@ ul {
   padding-left: 16px;
   padding-right: 16px;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.portfolio h2 {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+/* line-height: 40px; */ 
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
+}
+
