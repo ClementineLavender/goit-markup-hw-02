@@ -53,3 +53,65 @@ body {
   max-width: 1158px;
   margin: 0 auto;
 }
+
+
+
+
+.logo {
+font-family: "Releway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+
+/* line-height: 21px; */ 
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+.logo-part {
+color: var(--navy-blue);
+}
+.menu-link {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+.menu-link:hover,
+.menu-link:fokus {
+	color: #4D5AE5;
+}
+.contact-info {
+  font-style: normal;
+}
+.contact-link {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+.contact-link:hover,
+.contact-link:focus {
+  :root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+}
+}
