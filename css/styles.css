@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  font-style: normal;
   color: #434455;
   background-color: #ffffff;
 }
@@ -58,7 +59,7 @@ address {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   vertical-align: middle;
@@ -88,7 +89,7 @@ address {
   color: #404bbf;
 }
 
-.nav-list-link.current {
+.nav-list-link .current {
   color: #404bbf;
 }
 
@@ -126,6 +127,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
