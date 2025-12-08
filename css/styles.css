@@ -81,12 +81,10 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.nav-address-link:hover,
-.nav-address-link:focus {
-  color: #404bbf;
-}
 
-.page-header .logo {
+.nav-address-link:hover,
+.nav-list-link:focus {
+  color: #404bbf;
 }
 
 /*------- Hero---------- */
