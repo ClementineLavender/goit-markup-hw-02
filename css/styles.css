@@ -87,6 +87,35 @@ address {
   color: #404bbf;
 }
 
+/* !!!!!!!!!!!!!!!11.12 !!!!!!!!!!!!!!!!!!!!!*/
+.nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.page-header > .container {
+  display: flex;
+  max-width: 1440px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-address {
+  display: flex;
+  gap: 40px;
+}
+
 /*------- Hero---------- */
 .hero-section {
   background-color: #2e2f42;
